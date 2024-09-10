@@ -1,0 +1,27 @@
+paleta{
+    color:#ffd6ff;
+    color:#e7c6ff;
+    color:#c8b6ff;
+    color:#b8c0ff;
+    color:#bbd0ff;
+}
+
+body{
+    background: #ffff;
+    font-family: "Vesper Libre", serif;
+}
+
+.navbar-brand{
+    margin-right: 13%;
+    font-size: 20px;
+}
+
+.nav-item{
+    margin-left: 10%;
+    font-size: 15px;
+}
+
+.container-fluid{
+    margin:0%;
+}
+
