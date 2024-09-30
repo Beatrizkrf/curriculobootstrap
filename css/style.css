@@ -1,9 +1,9 @@
 paleta{
     color:#ffd6ff;
-    color:#e7c6ff;
-    color:#c8b6ff;
-    color:#b8c0ff;
-    color:#bbd0ff;
+    color:#966b9d;
+    color:#cfc0bd;
+    color:#b38d97;
+    color:#c4b7cb;
 }
 
 body{
@@ -38,4 +38,28 @@ body{
     margin-left: 400px;
 }
 
+.subtitulo{
+    font-size: 20px;
 }
+
+.sobre{
+    width: 600px;
+    margin-left: 420px;
+    margin-right:150px;
+    margin-top: 300px;
+}
+
+.habilidades{
+    width: 600px;
+    margin-top: 100px;
+    margin-right:150px;
+    margin-left: 420px;
+    color: #776780;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
