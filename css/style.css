@@ -23,18 +23,19 @@ body{
 
 .container-fluid{
     margin:0%;
+    
 }
 
 
 .banner_titulo{
     font-size: 30px;
     /*margin-left: 700px;*/
-    margin-top: 150px;
+    margin-top: 250px;
 }
 
 .avatar{
     width: 200px;
-    margin-top: 70px;
+    margin-top: 150px;
     margin-left: 400px;
 }
 
@@ -59,7 +60,126 @@ body{
 
 h2{
     text-align: center;
+    color: #966b9d;
 }
 
+.titulos{
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
 
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    padding: 40px 0;
+    width: 1000px;
+    box-sizing: border-box;
+} 
+.timeline ul{
+    margin: 0;
+    padding: 0;
+}
+.timeline ul li{
+    list-style: none;
+    position: relative;
+    width: 50%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+}
+.timeline:before{
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 2px;
+    height: 100%;
+    background: #c5c5c5;
+}
+.timeline ul li:nth-child(odd){
+    float: left;
+    text-align: right;
+    clear: both;
+}
+.timeline ul li:nth-child(even){
+    float: right;
+    text-align: left;
+    clear: both;
+}
+.content{
+    padding-bottom: 20px;
+}
+.timeline ul li:nth-child(odd):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    right: -6px;
+    width: 10px;
+    height: 10px;
+    background: #c4b7cb;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #c4b7cb;
+}
+.timeline ul li:nth-child(even):before{
+    content: '';
+    position: absolute;
+    top: 24px;
+    left: -4px;
+    width: 10px;
+    height: 10px;
+    background: #b38d97;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px #b38d97;
+}
+.timeline ul li h3{
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #966b9d;
+}
+.timeline ul li p{
+    margin: 10px 0 0;
+    padding: 0;
+}
+.timeline ul li:nth-child(odd) .time{
+    position: absolute;
+    top: 12px;
+    right: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background: #c4b7cb;
+    color: #fff ;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px #c4b7cb;
+} 
+.timeline ul li .time h4{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.timeline ul li:nth-child(even) .time{
+    position: absolute;
+    top: 12px;
+    left: -165px;
+    margin: 0;
+    padding: 8px 16px;
+    background:#c4b7cb;
+    color: #fff ;
+    border-radius: 18px;
+    box-shadow: 0 0 0 3px #c4b7cb;
+} 
 
+.portifolio{
+    width: 700px;
+    margin-top: 200px;
+    margin-right:500px;
+    margin-left: 350px;
+    color: #776780;
+}
+
+footer{
+    padding: 30px;
+    background-color:#ffd6ff ;
+    margin-top: 60px;
+    text-align: center;
+}
