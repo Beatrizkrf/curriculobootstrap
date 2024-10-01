@@ -11,9 +11,24 @@ body{
     font-family: "Vesper Libre", serif;
 }
 
+.navbar{
+    padding: 30px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffd6ff;  /* Cor de fundo do menu */
+    box-shadow: 0 4px 6px #ffd6ff /* Sombra abaixo do menu */
+    padding: 10px 20px; /* Espaçamento interno do menu */
+}
+
+header{
+    background-color: #966b9d;
+}
 .navbar-brand{
     margin-right: 43%;
     font-size: 20px;
+    z-index: 1000;-
 }
 
 .nav-item{
@@ -44,18 +59,22 @@ body{
 }
 
 .sobre{
-    width: 600px;
-    margin-left: 420px;
-    margin-right:150px;
+    width: 500px;
+    margin-left: auto;
+    margin-right:auto;
     margin-top: 300px;
 }
 
 .habilidades{
-    width: 600px;
+    width: 550px;
     margin-top: 100px;
-    margin-right:150px;
-    margin-left: 420px;
+    margin-right:auto;
+    margin-left: auto;
     color: #776780;
+}
+
+.progress-bar{
+    background-color: #966b9d;
 }
 
 h2{
@@ -65,8 +84,8 @@ h2{
 
 .titulos{
     text-align: center;
-    margin-right: 10px;
-    margin-left: 100px;
+    /*margin-right: 10px;
+    margin-left: 100px;*/
     margin-top: 80px;
 }
 
@@ -74,7 +93,7 @@ h2{
     position: relative;
     margin: 50px auto;
     padding: 40px 0;
-    width: 1000px;
+    width: 600px;
     box-sizing: border-box;
 } 
 .timeline ul{
@@ -172,14 +191,29 @@ h2{
 .portifolio{
     width: 700px;
     margin-top: 200px;
-    margin-right:500px;
-    margin-left: 350px;
+    margin-right:auto;
+    margin-left: auto;
     color: #776780;
 }
+@media (max-width: 1129px) {
+    .portifolio{
+        max-width: 500px;
+    }
+}
+.card-body{
+    background-color: #b88ca7af;
+}
+
 
 footer{
     padding: 30px;
-    background-color:#ffd6ff ;
+    background-color:#e0d2e0 ;
     margin-top: 60px;
     text-align: center;
+}
+
+.img-fluid{
+    width: 200px;
+    margin-top: 150px;
+    margin-left: 400px;
 }
