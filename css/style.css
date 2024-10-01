@@ -17,13 +17,13 @@ body{
     top: 0;
     width: 100%;
     z-index: 1000;
-    background-color: #ffd6ff;  /* Cor de fundo do menu */
+    background-color: #e93ce9;  /* Cor de fundo do menu */
     box-shadow: 0 4px 6px #ffd6ff /* Sombra abaixo do menu */
     padding: 10px 20px; /* Espaçamento interno do menu */
 }
 
-header{
-    background-color: #966b9d;
+.container-fluid,header{
+    background-color:#e0d2e0;
 }
 .navbar-brand{
     margin-right: 43%;
@@ -52,6 +52,7 @@ header{
     width: 200px;
     margin-top: 150px;
     margin-left: 400px;
+    position: absolute;
 }
 
 .subtitulo{
@@ -191,6 +192,7 @@ h2{
 .portifolio{
     width: 700px;
     margin-top: 200px;
+    margin-bottom: 100px;
     margin-right:auto;
     margin-left: auto;
     color: #776780;
