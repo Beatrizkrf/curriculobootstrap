@@ -12,7 +12,7 @@ body{
 }
 
 .navbar{
-    padding: 30px;
+    padding: 2%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -70,10 +70,10 @@ section{
   }
 
 .sobre{
-    width: 500px;
+    width: 50%;
     margin-left: auto;
     margin-right:auto;
-    margin-top: 300px;
+    margin-top: 20%;
 }
 
 .card-text{
@@ -81,7 +81,7 @@ section{
 }
 
 .habilidades{
-    width: 550px;
+    width: 55%;
     margin-top: 100px;
     margin-right:auto;
     margin-left: auto;
@@ -101,135 +101,102 @@ h2{
     text-align: center;
     /*margin-right: 10px;
     margin-left: 100px;*/
-    margin-top: 80px;
+    margin-top: 10%;
 }
 
-.timeline{
-    position: relative;
-    margin: 50px auto;
-    padding: 40px 0;
-    width: 600px;
-    box-sizing: border-box;
-} 
-.timeline ul{
-    margin: 0;
-    padding: 0;
+.coracordionfora{
+    background-color: #966b9d67;
+    box-shadow: inset 0 calc(-1* var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
-.timeline ul li{
-    list-style: none;
-    position: relative;
-    width: 50%;
-    padding: 20px 40px;
-    box-sizing: border-box;
+
+.cordentro{
+    background-color: #ffff;    
 }
-.timeline:before{
-    content: '';
-    position: absolute;
-    left: 50%;
-    width: 2px;
-    height: 100%;
-    background: #c5c5c5;
+
+.accordion-button:not(.collapsed) {
+    background-color: #741f8167; /* Cor de fundo quando expandido */
+    color: rgba(0, 0, 0, 0.801); /* Cor do texto quando expandido */
+    border: none; /* Remove borda no estado expandido */
+    box-shadow: none;
 }
-.timeline ul li:nth-child(odd){
-    float: left;
-    text-align: right;
-    clear: both;
+
+.accordion-button {
+    border: none;
+    box-shadow: none;
+    outline: none;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+  }
+   
+  .accordion-button.collapsed {
+    border: none; /* Remove borda no estado fechado */
+    box-shadow: none;
+  }
+  
+.flor{
+    width: 15%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 50%;
+    margin-right: 50%;
 }
-.timeline ul li:nth-child(even){
-    float: right;
-    text-align: left;
-    clear: both;
-}
-.content{
-    padding-bottom: 20px;
-}
-.timeline ul li:nth-child(odd):before{
-    content: '';
-    position: absolute;
-    top: 24px;
-    right: -6px;
-    width: 10px;
-    height: 10px;
-    background: #c4b7cb;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #c4b7cb;
-}
-.timeline ul li:nth-child(even):before{
-    content: '';
-    position: absolute;
-    top: 24px;
-    left: -4px;
-    width: 10px;
-    height: 10px;
-    background: #b38d97;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px #b38d97;
-}
-.timeline ul li h3{
-    margin: 0;
-    padding: 0;
-    font-weight: 600;
-    color: #966b9d;
-}
-.timeline ul li p{
-    margin: 10px 0 0;
-    padding: 0;
-}
-.timeline ul li:nth-child(odd) .time{
-    position: absolute;
-    top: 12px;
-    right: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: #c4b7cb;
-    color: #fff ;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px #c4b7cb;
-} 
-.timeline ul li .time h4{
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-}
-.timeline ul li:nth-child(even) .time{
-    position: absolute;
-    top: 12px;
-    left: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background:#c4b7cb;
-    color: #fff ;
-    border-radius: 18px;
-    box-shadow: 0 0 0 3px #c4b7cb;
-} 
 
 .portifolio{
-    width: 700px;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 20%;
     margin-right:auto;
     margin-left: auto;
     color: #776780;
 }
-@media (max-width: 1129px) {
+
+.botao{
+    background-color: #b38d97;
+        border: 2px solid #ffd6ff;
+      
+}
+/*@media (max-width: 1129px) {
     .portifolio{
         max-width: 500px;
     }
-}
+}*/
 .card-body{
     background-color: #b88ca7af;
 }
 
 
 footer{
-    padding: 30px;
+    width: 100%;
+    padding: 10%;
     background-color:#e0d2e0 ;
-    margin-top: 60px;
+    margin-top: 6%;
     text-align: center;
+}
+
+.botaoo{
+    background-color: #b38d97;
+    border: 2px solid #ffd6ff;
+    margin-top: 5%;
+      
+}
+
+.nomecont{
+    margin-top: 3%;
+    color:#91809b;
+    font-size: 150%;
 }
 
 .img-fluid{
     width: 80%;
     margin-top: 150px;
     margin-left: 400px;
+}
+
+@media (max-width: 1129px) {
+    .portifolio{
+        max-width: 500px;
+    }
 }
